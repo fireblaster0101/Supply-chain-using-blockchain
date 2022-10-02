@@ -1,0 +1,47 @@
+/**
+*New Query File
+*/
+
+query Q1 {
+  description: "Select all commodities"
+  statement: 
+    SELECT com.boanntech.supplychain.network.Commodity
+}
+
+
+query Q2 {
+  description: "Select all PO"
+  statement: 
+    SELECT com.boanntech.supplychain.network.PO
+}
+
+query Q3 {
+  description: "Select all Manufactuters"
+  statement: 
+    SELECT com.boanntech.supplychain.network.Manufacturer
+}
+
+query Q4 {
+  description: "Select all Suppliers"
+  statement: 
+    SELECT com.boanntech.supplychain.network.Supplier
+}
+
+query Q5 {
+  description: "Select all Distributers"
+  statement: 
+    SELECT com.boanntech.supplychain.network.Distributer
+}
+
+query Q6 {
+  description: "Select all Retailers"
+  statement: 
+    SELECT com.boanntech.supplychain.network.Retailer
+}
+
+query Q7 {
+  description: "Select all Customers"
+  statement: 
+    SELECT com.boanntech.supplychain.network.Customer
+}
+
